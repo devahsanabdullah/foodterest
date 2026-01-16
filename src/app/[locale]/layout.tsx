@@ -4,6 +4,7 @@ import './globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { defaultMetadata } from '@/config/seo';
 import { Toaster } from 'react-hot-toast';
+import PWAInstallPrompt from '@/components/pwa/Pwa';
 
 
 const poppins = Poppins({
@@ -20,9 +21,9 @@ const inter = Inter({
 
 // export const metadata: Metadata = defaultMetadata;
 export const metadata = {
-  title:"foodterest",
-  description:"Food Terest is designed for the pins of your favorite restaurants.",
-  manifest:'/manifest.webmanifest',
+  title: "foodterest",
+  description: "Food Terest is designed for the pins of your favorite restaurants.",
+  manifest: '/manifest.webmanifest',
 };
 export const viewport: Viewport = {
   width: 'device-width',
@@ -45,6 +46,7 @@ export default async function RootLayout({
       <body suppressHydrationWarning className={`${inter.variable} antialiased dark:bg-dark`}>
         <NextIntlClientProvider>
           <Toaster />
+          <PWAInstallPrompt />
           {children}
         </NextIntlClientProvider>
       </body>
