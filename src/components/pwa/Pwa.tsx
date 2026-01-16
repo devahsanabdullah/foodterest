@@ -279,7 +279,7 @@ export default function PWAInstallPrompt() {
       <div className="fixed left-4 right-4 top-[3.2rem] z-[100] md:left-auto md:right-4 md:w-96">
         <div className="border-border-primary flex items-start gap-3 rounded-lg border bg-main-surface-secondary p-4 shadow-lg">
           <div className="flex-1">
-            <h3 className="mb-1 text-sm font-semibold text-text-primary">Install AlfredGPT</h3>
+            <h3 className="mb-1 text-sm font-semibold text-text-primary">Install Foodterest</h3>
             <p className="mb-2 text-xs text-text-secondary">
               Tap the share button <span className="inline-block">📤</span> and select &quot;Add to
               Home Screen&quot;
@@ -314,7 +314,7 @@ export default function PWAInstallPrompt() {
     <div className="fixed left-4 right-4 top-[3.2rem] z-[100] md:left-auto md:right-4 md:w-96">
       <div className="border-border-primary flex items-start gap-3 rounded-lg border bg-main-surface-secondary p-4 shadow-lg">
         <div className="flex-1">
-          <h3 className="mb-1 text-sm font-semibold text-text-primary">Install AlfredGPT</h3>
+          <h3 className="mb-1 text-sm font-semibold text-text-primary">Install Foodterest</h3>
           <p className="mb-3 text-xs text-text-secondary">
             Install our app for a better experience and faster loading.
           </p>
